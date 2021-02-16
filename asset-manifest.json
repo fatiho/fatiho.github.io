@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.46582189.chunk.css",
-    "main.js": "/static/js/main.5dcd1197.chunk.js",
-    "main.js.map": "/static/js/main.5dcd1197.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d9a65708.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d9a65708.js.map",
+    "main.css": "/static/css/main.068a81b8.chunk.css",
+    "main.js": "/static/js/main.9cac57d4.chunk.js",
+    "main.js.map": "/static/js/main.9cac57d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5f4ab7e1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5f4ab7e1.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
-    "static/js/2.792b2464.chunk.js": "/static/js/2.792b2464.chunk.js",
-    "static/js/2.792b2464.chunk.js.map": "/static/js/2.792b2464.chunk.js.map",
-    "static/js/3.776c3352.chunk.js": "/static/js/3.776c3352.chunk.js",
-    "static/js/3.776c3352.chunk.js.map": "/static/js/3.776c3352.chunk.js.map",
+    "static/js/2.6b6cb64a.chunk.js": "/static/js/2.6b6cb64a.chunk.js",
+    "static/js/2.6b6cb64a.chunk.js.map": "/static/js/2.6b6cb64a.chunk.js.map",
+    "static/js/3.ec13329e.chunk.js": "/static/js/3.ec13329e.chunk.js",
+    "static/js/3.ec13329e.chunk.js.map": "/static/js/3.ec13329e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.46582189.chunk.css.map": "/static/css/main.46582189.chunk.css.map",
-    "static/js/2.792b2464.chunk.js.LICENSE.txt": "/static/js/2.792b2464.chunk.js.LICENSE.txt",
+    "static/css/main.068a81b8.chunk.css.map": "/static/css/main.068a81b8.chunk.css.map",
+    "static/js/2.6b6cb64a.chunk.js.LICENSE.txt": "/static/js/2.6b6cb64a.chunk.js.LICENSE.txt",
+    "static/media/DimpledVariableIndianglassfish-max-1mb.7ef58ff4.gif": "/static/media/DimpledVariableIndianglassfish-max-1mb.7ef58ff4.gif",
     "static/media/Fatih_Ozer.ac8796c4.pdf": "/static/media/Fatih_Ozer.ac8796c4.pdf",
+    "static/media/Wharton Customer Analytics Research - Team 2 Presentation.981f3576.pdf": "/static/media/Wharton Customer Analytics Research - Team 2 Presentation.981f3576.pdf",
     "static/media/circle-cropped.23a00ab7.png": "/static/media/circle-cropped.23a00ab7.png",
     "static/media/logo.97fbc9d5.png": "/static/media/logo.97fbc9d5.png",
-    "static/media/penn.e5b2b99f.png": "/static/media/penn.e5b2b99f.png"
+    "static/media/medi.44558448.png": "/static/media/medi.44558448.png",
+    "static/media/penn.e5b2b99f.png": "/static/media/penn.e5b2b99f.png",
+    "static/media/pillow.194e6918.png": "/static/media/pillow.194e6918.png",
+    "static/media/spotify-2015-logo-560E071CB7-seeklogo.com.ec9fbcb2.png": "/static/media/spotify-2015-logo-560E071CB7-seeklogo.com.ec9fbcb2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9a65708.js",
+    "static/js/runtime-main.5f4ab7e1.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.792b2464.chunk.js",
-    "static/css/main.46582189.chunk.css",
-    "static/js/main.5dcd1197.chunk.js"
+    "static/js/2.6b6cb64a.chunk.js",
+    "static/css/main.068a81b8.chunk.css",
+    "static/js/main.9cac57d4.chunk.js"
   ]
 }
