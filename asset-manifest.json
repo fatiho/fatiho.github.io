@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.068a81b8.chunk.css",
-    "main.js": "/static/js/main.9cac57d4.chunk.js",
-    "main.js.map": "/static/js/main.9cac57d4.chunk.js.map",
+    "main.js": "/static/js/main.54f422ef.chunk.js",
+    "main.js.map": "/static/js/main.54f422ef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5f4ab7e1.js",
     "runtime-main.js.map": "/static/js/runtime-main.5f4ab7e1.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -21,14 +21,13 @@
     "static/media/logo.97fbc9d5.png": "/static/media/logo.97fbc9d5.png",
     "static/media/medi.44558448.png": "/static/media/medi.44558448.png",
     "static/media/penn.e5b2b99f.png": "/static/media/penn.e5b2b99f.png",
-    "static/media/pillow.194e6918.png": "/static/media/pillow.194e6918.png",
-    "static/media/spotify-2015-logo-560E071CB7-seeklogo.com.ec9fbcb2.png": "/static/media/spotify-2015-logo-560E071CB7-seeklogo.com.ec9fbcb2.png"
+    "static/media/pillow.194e6918.png": "/static/media/pillow.194e6918.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5f4ab7e1.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.6b6cb64a.chunk.js",
     "static/css/main.068a81b8.chunk.css",
-    "static/js/main.9cac57d4.chunk.js"
+    "static/js/main.54f422ef.chunk.js"
   ]
 }
