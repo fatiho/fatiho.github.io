@@ -1,29 +1,3 @@
-// {
-//   "short_name": "Fatih Ozer",
-//   "name": "Fatih Ozer's Web Portfolio",
-//   "icons": [
-//     {
-//       "src": "favicon.ico",
-//       "sizes": "32x32 16x16",
-//       "type": "image/x-icon"
-//     },
-//     {
-//       "src": "logo192.png",
-//       "type": "image/png",
-//       "sizes": "192x192"
-//     },
-//     {
-//       "src": "logo512.png",
-//       "type": "image/png",
-//       "sizes": "512x512"
-//     }
-//   ],
-//   "start_url": ".",
-//   "display": "standalone",
-//   "theme_color": "#000000",
-//   "background_color": "#ffffff"
-// }
-
 {
   "name":"Fatih Ozer's Web Portfolio",
   "short_name":"Fatih Ozer",
@@ -42,4 +16,5 @@
   ],
   "theme_color":"#ffffff",
   "background_color":"#ffffff",
-  "display":"standalone"}
+  "display":"standalone"
+}
