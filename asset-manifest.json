@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f3696a6e.chunk.css",
-    "main.js": "/static/js/main.3f733e87.chunk.js",
-    "main.js.map": "/static/js/main.3f733e87.chunk.js.map",
+    "main.js": "/static/js/main.14a4fd0b.chunk.js",
+    "main.js.map": "/static/js/main.14a4fd0b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5f4ab7e1.js",
     "runtime-main.js.map": "/static/js/runtime-main.5f4ab7e1.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
     "static/css/main.f3696a6e.chunk.css.map": "/static/css/main.f3696a6e.chunk.css.map",
     "static/js/2.7fb1ba42.chunk.js.LICENSE.txt": "/static/js/2.7fb1ba42.chunk.js.LICENSE.txt",
-    "static/media/Fatih_Ozer.5cbb2cf8.pdf": "/static/media/Fatih_Ozer.5cbb2cf8.pdf",
+    "static/media/Fatih_Ozer.bc44d987.pdf": "/static/media/Fatih_Ozer.bc44d987.pdf",
     "static/media/Wharton Customer Analytics Research - Team 2 Presentation.981f3576.pdf": "/static/media/Wharton Customer Analytics Research - Team 2 Presentation.981f3576.pdf",
     "static/media/circle-cropped.23a00ab7.png": "/static/media/circle-cropped.23a00ab7.png",
     "static/media/data.956eb8a0.png": "/static/media/data.956eb8a0.png",
@@ -27,6 +27,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.7fb1ba42.chunk.js",
     "static/css/main.f3696a6e.chunk.css",
-    "static/js/main.3f733e87.chunk.js"
+    "static/js/main.14a4fd0b.chunk.js"
   ]
 }
