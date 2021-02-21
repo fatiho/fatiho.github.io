@@ -1,32 +1,45 @@
 import React from "react";
 import Typed from "react-typed";
 import image from "../penn.png";
+import * as animation from "react-reveal"
 
 const Education = () => {
     return (
-        <a id="about">
+        <a id="education">
         <div className="about-wrapper">
             
             <div className="about-info">
                 {/* <h1>About</h1> */}
+                <div className="about-title">
                 <h1>Education</h1>
+                </div>
                 <div class="row">
+                    
+                    <div className="column" >
+                        <animation.Fade left>
+                        <div className="penn-logo">
+                            <img src={image}/>
+                        </div>
+                        </animation.Fade>
+                    </div>
                     <div className="column" >
                         {/* <h2>Column 2</h2> */}
+                        <animation.Fade right>
                         <div className="column-object">
+                            <div className="col-ab">
                             
                             <h1> </h1>
-                            <h3>University of Pennsylvania</h3>
-                            <h5>August 2017 <em>to</em> June 2021</h5>
-                            <h5>Dual Degree</h5>
-                            <p>GPA: 3.40/4.00</p>
+                            <h3 className="h3-text">University of Pennsylvania</h3>
+                            <h5 className="h5-text">August 2017 <em>to</em> June 2021</h5>
+                            <h5 className="h5-text">Dual Degree</h5>
+                            <p><b>GPA:</b> 3.40/4.00</p>
                             <p><b>Degrees:</b> Bachelor of Science in Engineering <em>and</em> Bachelor of Arts</p>
                             <p><b>Majors:</b> Computer Science, International Relations</p>
                             <p><b>Minors:</b> Economics, History, Mathematics</p>
                             <p><b>Thesis:</b> Exploring the greatest challenges in governing cyber-attacks</p>
-                            <p><b>Coursework</b></p>
+                            <p><b>Technical Coursework</b></p>
                             <div className="list">
-                            <ul>
+                            <ul className="inner-list">
                                 <li>
                                     Algorithms
                                 </li>
@@ -47,13 +60,9 @@ const Education = () => {
                             </div>
                            
                                 
-                            
+                            </div>
                         </div>
-                    </div>
-                    <div className="column" >
-                        <div className="penn-logo">
-                            <img src={image}/>
-                        </div>
+                        </animation.Fade>
                     </div>
                     
                 </div>

@@ -7,16 +7,22 @@ import Particles from "react-particles-js"
 import About from "./components/About"
 import Education from "./components/Education"
 import Experience from "./components/Experience"
+import Zoom from "react-reveal/Zoom"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
+// import Routes from "./Routes"
 
 function App() {
   return (
+
     <>
+    {/* <Routes /> */}
     <Particles
       className="particles-canvas"
       params={{
         particles: {
           number: {
-            value: 50,
+            value: 60,
             density: {
               enable: true,
               value_area: 900,
@@ -31,14 +37,14 @@ function App() {
           }
         }
       }}/>
-    <Navbar className="navybar"/>
+    <Navbar/>
     <Header/>
-    {/* <Particles
+    <Particles
       className="particles-canvas"
       params={{
         particles: {
           number: {
-            value: 50,
+            value: 60,
             density: {
               enable: true,
               value_area: 900,
@@ -53,13 +59,13 @@ function App() {
           }
         }
       }}/>
-    <About/>
+    <About />
     <Particles
       className="particles-canvas"
       params={{
         particles: {
           number: {
-            value: 50,
+            value: 60,
             density: {
               enable: true,
               value_area: 900,
@@ -75,9 +81,34 @@ function App() {
         }
       }}/>
     <Education/>
+
     
       <Experience />
-     */}
+
+    
+      <Projects/>
+
+      <Particles
+      className="particles-canvas"
+      params={{
+        particles: {
+          number: {
+            value: 30,
+            density: {
+              enable: true,
+              value_area: 900,
+            }
+          },
+          shape: {
+            type: "circle",
+            stroke: {
+              width: 4,
+              color: "#f9ab00"
+            }
+          }
+        }
+      }}/>
+    <Contact/>
     </>
 
     

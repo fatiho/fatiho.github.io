@@ -55,19 +55,20 @@ body {
 
 /* can style the font of my name ^^ */
 
-.container {
+/* .container {
   position: sticky;
 }
-
-.navbar {
+*/
+/* .navbar {
   top: 0;
-  z-index: 2;
-  /* position: -webkit-sticky; */
+  left: 0;
+  z-index: 5;
+  position: -webkit-sticky;
   position: sticky;
   display: flex;
 
   background-color: #000;
-}
+} */
 
 nav a.nav-link {
   /* font-weight: 500; */
@@ -75,13 +76,13 @@ nav a.nav-link {
   font-size: 0.8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
-  position: sticky;
+  /* position: sticky; */
 }
 
 nav ul li {
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
-  position: sticky;
+  /* position: sticky; */
 }
 
 .navbar-nav > li > a {
@@ -91,7 +92,7 @@ nav ul li {
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
   font-family: "Roboto Condensed", sans-serif;
-  position: sticky;
+  /* position: sticky; */
 }
 
 .navbar-brand {
@@ -100,18 +101,18 @@ nav ul li {
   text-transform: uppercase;
   color: var(--primary-white) !important;
   font-family: "Roboto Condensed", sans-serif;
-  position: sticky;
+  /* position: sticky; */
 }
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-orange);
-  position: sticky;
+  /* position: sticky; */
 }
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
-  position: sticky;
+  /* position: sticky; */
 }
 
 /******** HEADER ********/
@@ -121,7 +122,7 @@ nav ul li {
   background-color: #000;
   background-size: cover;
   background-position: center;
-  height: 200vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -135,13 +136,19 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Source Code Pro", monospace;
-  z-index: 1;
+  /* font-family: "Source Code Pro", monospace; */
+  z-index: 2;
 }
 
 .main-info h1 {
   color: var(--primary-white);
+  font-family: "Roboto Condensed", sans-serif;
   /* text-transform: uppercase; */
+}
+
+.main-info h2 {
+  color: var(--primary-white);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /******* TYPE TEXT **********/
@@ -184,7 +191,7 @@ nav ul li {
 
 .tsparticles-canvas-el {
   position: absolute;
-  height: 200vh;
+  height: 100%;
   width: 100vw;
   z-index: 1;
 }
@@ -195,9 +202,19 @@ nav ul li {
   }
 }
 
-/**** ABOUT ***/
-
 .about-wrapper {
+  position: relative;
+  /* background: url(Horizon.jpg) no-repeat; */
+  background-color: #000;
+  /* background-size: cover; */
+  background-position: center;
+  height: 100%;
+  position: center;
+  /* z-index: 2; */
+  padding: 20px;
+}
+
+.projects-wrapper {
   position: relative;
   /* background: url(Horizon.jpg) no-repeat; */
   background-color: #000;
@@ -205,14 +222,15 @@ nav ul li {
   background-position: center;
   height: 120vh;
   position: center;
-  z-index: 0;
+  /* z-index: 0; */
 }
-.about-info {
+.projects-info {
   position: center;
 }
 
 .about-objects p {
   color: var(--primary-white);
+
   /* width: 700px;
   right: 260px;
   top: 200px;
@@ -233,9 +251,20 @@ nav ul li {
   text-align: center;
   justify-content: center;
   vertical-align: middle;
+  padding: 30px;
+  height: 100%;
+  /* z-index: 2; */
 }
 
 .about-info h1 {
+  color: #fff;
+  /* z-index: 2; */
+}
+
+.main-info h3 {
+  color: #fff;
+}
+.main-info p {
   color: #fff;
 }
 
@@ -251,7 +280,7 @@ nav ul li {
   align-items: right;
   text-align: right;
   font-family: "Source Code Pro", monospace;
-  z-index: 1;
+  z-index: 3;
 }
 
 .column-object p {
@@ -259,25 +288,30 @@ nav ul li {
   color: #ffffff;
   color: var(--primary-white);
   vertical-align: middle;
+  /* z-index: 4; */
 }
 .column-object h1 {
   text-align: justify;
   color: #ffffff;
   color: var(--primary-white);
   vertical-align: middle;
+  /* z-index: 4; */
 }
 
 .profile {
-  justify-content: right;
-  align-items: right;
-  text-align: right;
-  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  z-index: 4;
 }
 
 .profile img {
   position: relative;
-  max-width: 60%;
-  z-index: 2;
+  max-width: 100%;
+
+  /* z-index: 4; */
 }
 
 .column-object {
@@ -288,15 +322,18 @@ nav ul li {
   align-items: center;
   text-align: center;
   vertical-align: middle;
-  padding: 10;
+  padding: 0;
+  /* z-index: 4; */
 }
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 50%;
-  padding: 150px;
+  padding: 50px;
+  z-index: 3;
+
   justify-content: center;
-  height: 500px;
+  height: 100%;
 }
 
 /* Clear floats after the columns */
@@ -304,11 +341,17 @@ nav ul li {
   content: "";
   display: table;
   clear: both;
+  /* z-index: 4; */
+}
+
+.row {
+  z-index: 3;
 }
 
 @media (max-width: 768px) {
   .column {
     width: 100%;
+    /* z-index: 4; */
   }
 }
 
@@ -320,6 +363,7 @@ nav ul li {
   justify-content: left;
   align-items: left;
   text-align: left;
+  /* z-index: 4; */
 }
 
 .list {
@@ -328,31 +372,32 @@ nav ul li {
 
 .penn-logo img {
   position: relative;
-  width: 80%;
-  z-index: 2;
+  width: 70%;
+  /* z-index: 2; */
 }
 
 .penn-logo {
-  padding: 100px;
+  padding: 10px;
   content: left;
 
-  align-items: left;
+  align-items: center;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
-  text-align: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   vertical-align: center;
 }
 
 .experience-wrapper {
+  padding: 30px;
   position: relative;
   /* background: url(Horizon.jpg) no-repeat; */
   background-color: #000;
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100%;
   position: center;
-  z-index: 0;
+  /* z-index: 0; */
 }
 
 .caption h3 {
@@ -366,7 +411,8 @@ nav ul li {
 .Accordion {
   padding: 50px;
   position: relative;
-  z-index: 2 !important;
+  height: 900px;
+  /* z-index: 2 !important; */
 }
 
 .experience-wrapper h1 {
@@ -390,19 +436,99 @@ nav ul li {
 
 .particles-canvas {
   background-color: blue;
-  z-index: -1;
+  height: 100%;
+  /* z-index: -1; */
 }
 
-.Accordion accordion {
+.Accordion {
   position: relative;
   z-index: 2;
 }
 
-.bar {
-  position: sticky;
+.nav-item-download {
+  border-radius: 1px;
+}
+
+.carddeck {
+  padding: 50px;
+  bottom: 50px;
+}
+
+.c1 {
+  bottom: 50px;
+}
+
+.card-data {
+  margin-top: 30px;
+}
+
+.cardimages {
+  padding: 20px;
+  max-width: 100%;
+
+  align-self: center;
+}
+
+.cardimages-spot {
+  max-width: 59.5%;
+  padding: 20px;
+  align-self: center;
+}
+
+.cardimages-medi {
+  max-width: 67.9%;
+  padding: 20px;
+  align-self: center;
+}
+
+.cardimages-doc {
+  max-width: 63.1%;
+  padding: 20px;
+  align-self: center;
+}
+
+.cardimages-pillow {
+  max-width: 63.1%;
+  padding: 20px;
+  align-self: center;
+}
+
+.about-info h3 {
+  color: white;
+  font-size: 32px;
+}
+
+.carddeck h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.cardimages-data {
+  max-width: 63.1%;
+
+  align-self: center;
+}
+
+.col-ab p {
+  font-size: 23px;
+}
+
+.h5-text {
+  font-size: 25px;
+}
+
+.inner-list {
+  font-size: 20px;
+}
+
+.about-title {
   z-index: 2;
 }
 
-.navybar {
-  position: sticky;
+.about-title h1 {
+  z-index: 2;
+}
+
+.Accordion Card {
+  z-index: 2;
 }

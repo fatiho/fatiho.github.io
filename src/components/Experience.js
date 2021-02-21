@@ -4,6 +4,8 @@ import image from "../penn.png";
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import * as animation from 'react-reveal'
+
 
 const Experience = () => {
     return (
@@ -11,6 +13,7 @@ const Experience = () => {
         <div className="experience-wrapper">
             <div className="experience-info">
             <h1>Experience</h1>
+            <animation.Zoom>
         <Accordion className="Accordion" defaultActiveKey="0">
   <Card>
     <Card.Header>
@@ -22,7 +25,7 @@ const Experience = () => {
       <Card.Body>
           Philadelphia, PA
           <ul>
-              <li>Organized a team of 20 Teaching Assistants and guiding them through the new curriculum, covering content, strategies to improve student engagement, and organizing grading</li>
+              <li>Organized a team of 20 Teaching Assistants and guided them through a new curriculum, how to cover content, strategies to improve student engagement, and organizing grading</li>
               <li>Conducted Calculus and Linear Algebra recitations and review sessions for 90 engineering students for 3 hours a week</li>
               <li>Winner of the Good Teaching Award (Highest honor at the Department of Mathematics)</li>
               <li>Pioneered transition of Calculus classes to follow an application-based approach to Mathematics</li>
@@ -48,8 +51,8 @@ const Experience = () => {
           </ul>
       </Card.Body>
     </Accordion.Collapse>
-  </Card>
-  <Card>
+  </Card> 
+<Card>
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="2">
         Efrtls / Salahfalah / Patronish: Software Engineering Intern - June 2020 to September 2020
@@ -85,6 +88,7 @@ const Experience = () => {
     </Accordion.Collapse>
   </Card>
 </Accordion>
+</animation.Zoom>
 </div>
         </div>
         </a>

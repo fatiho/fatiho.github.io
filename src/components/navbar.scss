@@ -1,0 +1,24 @@
+.navbar {
+  top: 0;
+  left: 0;
+  z-index: 4;
+  /* position: -webkit-sticky; */
+
+  background-color: #000;
+  width: 100%;
+  max-width: 100%;
+  min-height: 6vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: all 0.2s ease;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+}
