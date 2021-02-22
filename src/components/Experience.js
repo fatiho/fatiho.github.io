@@ -17,12 +17,12 @@ const Experience = () => {
         <Accordion className="Accordion" defaultActiveKey="0">
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="0">
-        University of Pennyslvania: Lead Mathematics Teaching Assistant - August 2018 to Present
+      <Accordion.Toggle className="exp-title" as={Button} variant="link" eventKey="0">
+        <strong>University of Pennyslvania: Lead Mathematics Teaching Assistant - August 2018 to Present</strong>
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="0">
-      <Card.Body>
+      <Card.Body className="exp-body">
           Philadelphia, PA
           <ul>
               <li>Organized a team of 20 Teaching Assistants and guided them through a new curriculum, how to cover content, strategies to improve student engagement, and organizing grading</li>
@@ -36,12 +36,12 @@ const Experience = () => {
   </Card>
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="1">
-        Talenox: Software Engineering Intern - June 2020 to September 2020
+      <Accordion.Toggle className="exp-title" as={Button} variant="link" eventKey="1">
+        <strong>Talenox: Software Engineering Intern - June 2020 to September 2020</strong>
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="1">
-      <Card.Body>
+      <Card.Body className="exp-body">
           <p>Singapore - Remote from Hong Kong</p>
           <p><em>Talenox is a Human Resource Management technology company based out of Singapore and operating in the South East Asia market. The platform is essentially a competitor to Workday.</em></p>
           <ul>
@@ -54,12 +54,12 @@ const Experience = () => {
   </Card> 
 <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="2">
-        Efrtls / Salahfalah / Patronish: Software Engineering Intern - June 2020 to September 2020
+      <Accordion.Toggle className="exp-title" as={Button} variant="link" eventKey="2">
+        <strong>Efrtls / Salahfalah / Patronish: Software Engineering Intern - June 2020 to September 2020</strong>
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="2">
-      <Card.Body>
+      <Card.Body className="exp-body">
       <p>London, United Kingdom - Remote from Hong Kong</p>
           <p><em>Efrtls is a technology company that works with many startups around the world. Salahfalah and Patronish are two startups that work with efrtls. </em></p>
           <ul>
@@ -72,12 +72,12 @@ const Experience = () => {
   </Card>
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="3">
-        Istanbul Technical University: Consulting Intern for Prof. Ufuk Cebeci - July 2019 to August 2019
+      <Accordion.Toggle className="exp-title" as={Button} variant="link" eventKey="3">
+        <strong>Istanbul Technical University: Consulting Intern for Prof. Ufuk Cebeci - July 2019 to August 2019</strong>
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="3">
-      <Card.Body>
+      <Card.Body className="exp-body">
       <p>Istanbul, Turkey</p>
           <p><em>Istanbul Technical University is one of the top five schools in Turkey. Prof. Ufuk Cebeci is a Professor of Industrial Engineering at the University specializing in assisting technology companies develop their products in and beyond Turkey. </em></p>
           <ul>

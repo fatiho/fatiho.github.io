@@ -10,6 +10,7 @@ import Experience from "./components/Experience"
 import Zoom from "react-reveal/Zoom"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 // import Routes from "./Routes"
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
       params={{
         particles: {
           number: {
-            value: 60,
+            value: 100,
             density: {
               enable: true,
               value_area: 900,
@@ -44,7 +45,7 @@ function App() {
       params={{
         particles: {
           number: {
-            value: 60,
+            value: 100,
             density: {
               enable: true,
               value_area: 900,
@@ -65,7 +66,7 @@ function App() {
       params={{
         particles: {
           number: {
-            value: 60,
+            value: 100,
             density: {
               enable: true,
               value_area: 900,
@@ -93,7 +94,7 @@ function App() {
       params={{
         particles: {
           number: {
-            value: 30,
+            value: 100,
             density: {
               enable: true,
               value_area: 900,
@@ -109,6 +110,7 @@ function App() {
         }
       }}/>
     <Contact/>
+    {/* <Footer /> */}
     </>
 
     

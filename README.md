@@ -1,3 +1,7 @@
+# Welcome to the source code for Fatih's personal website.
+
+Feel free to download the code and follow the instructions below to set this project up.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
